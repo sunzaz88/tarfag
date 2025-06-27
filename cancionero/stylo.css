@@ -1,0 +1,196 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: hsl(0, 90%, 4%);
+    color: hsl(60, 3%, 6%);
+    line-height: 1.6;
+    background-image: url('FON.jpg');
+}
+
+.contenedor {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(92, 7, 7);
+    color: rgb(232, 229, 235);
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgb(118, 11, 11);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+}
+
+nav a {
+    display: table-cell;
+    width: 800px;
+    font-size: 1.2rem;
+    height: auto;
+    padding: 15px 30px;
+    background-color: rgb(147, 6, 6);
+    color:white;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-weignt: 500;
+}
+
+nav a:hover{
+    background-color: #ff0000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+}
+
+.menu-con-imagen {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.imagen-lateral {
+    width: 800px;
+    height: auto;
+    border: 5px solid rgb(168, 30, 30); 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.bloque-letra-e-imagen {
+  display: flex;
+  flex-direction: row;   
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: nowrap;     
+  width: 100%;
+}
+
+.letra {
+  flex: 2;
+  font-size: 1rem;
+  line-height: 1;
+  white-space: pre-wrap;
+  color: white;
+  padding-right: 20px;
+  border: 4px solid rgb(224, 5, 5);           
+  border-radius: 10px;             
+  padding: 15px;                     
+  background-color: rgba(64, 8, 8, 0.3);
+  box-shadow: 0 4px 8px rgba(234, 19, 19, 0.3); 
+}
+
+.imagen-texto-derecha {
+  flex: 1;
+  max-width: 3000px;
+}
+
+.imagen-texto-derecha img {
+   width: 600px;
+    height: auto;
+  border-radius: 5px;
+  margin: 70px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(64, 2, 2);
+    color: rgb(240, 237, 244);
+    border-radius: 5px;
+}
+
+.audio {
+  margin: 0;              
+  padding: 0;            
+  text-align: center;
+  font-size: 0.95rem;
+  color: rgb(231, 184, 16);
+}
+
+.audio h2 {
+  font-size: 2rem; 
+}
+
+.audio h3 {
+  font-size: 1.7rem; 
+}
+
+.audio h2, .audio h3 {
+  margin-bottom: 8px;
+}
+
+.musica audio {
+  width: 100%;
+  max-width: 600px;
+  height: 40px;
+  border: 4px solid #3f0404;
+  border-radius: 15px;
+}
+
+.regresar {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.regresar a {
+  display: inline-block;
+  background-color: rgb(112, 12, 12);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
+
+.regresar a:hover {
+  background-color: #0f8b8b;
+}
+
+.cuadro-publicidad {
+    padding: 7px;
+    background-color: #410a0a;
+    border: 2px solid #4e2003;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 1050px;
+    margin: 30px auto;
+}
+
+.anuncios {
+    display: flex;
+    justify-content: center;
+    gap: 80px; 
+    margin-top: 15px;
+}
+
+.anuncios img {
+    width: 280px; 
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+
+footer h3 {
+    font-weight: normal;
+}
